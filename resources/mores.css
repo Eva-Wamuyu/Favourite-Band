@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-size: 1.5em;
+}
+body{
+  background-color: rgb(46, 11, 41);
+  color: aliceblue;
+}
+.eachMember{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.eachMember:nth-child(odd){
+  flex-direction: row;
+  
+}
+.eachMember img{
+  height: 25vh;
+}
+.eachMember div{
+  margin: auto;
+  width: 25vw;
+  padding-left: 2.5vw;
+  border-left: solid rgba(255, 0, 170, 0.5) 1px;
+}
+.eachMember:nth-child(even) div{
+  padding-right: 2.5vw;
+  padding-left: 0;
+  border-right: solid 1px rgba(255, 0, 170, 0.5);
+  border-left: none;
+  
+}
+.albums{
+  display: flex;
+  justify-content: center;
+  margin-top: 6.5vh;
+  
+
+}
+.album1, .album3{
+  margin-top: 0 4.5vw 0 0;
+  
+
+
+}
+.album3{
+  margin: 0 0 0 4.5vw;
+  
+}
+.album2{
+  margin-top: 2.5vh;
+  position: absolute;
+}
+.songs img{
+  height: 300px;
+}
+.songs, .song{
+  margin-top: 5.5vh;
+}
+
+.info li{
+  list-style: none;
+  text-transform: capitalize;
+}
+.this{
+  border-radius: 0 40px 0 40px;
+  padding: 2vh 1.2vw 2.5vh 2.5vw;
+  background-color: rgba(0,0,0,0.5);
+  
+}
+.songs .col-2:hover{
+  position: relative;
+  bottom: 12px;
+  
+
+}
+
+.infos{
+  margin-top: 4.5vh;
+  justify-content: space-between;
+}
+
+.info .col-8{
+  margin-top: 2.5vh;
+  
+}
+.info .col-8 h3, .info .col-8 ul{
+  width: 55%;
+  margin: auto;
+
+}
+.awards{
+  justify-content: center;
+}
+
+.footer p{
+  width: 50vw;
+  height: 4.5vh;
+  padding: 24px;
+  margin: auto;
+}
+.info{
+  margin-top: 2.5vh;
+}
