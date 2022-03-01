@@ -107,3 +107,29 @@ body{
 .info{
   margin-top: 2.5vh;
 }
+@media only screen and (max-width:988px){
+  .eachMember p{
+    display: none;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .this{
+    margin: auto;
+    width: 90vw;
+    border-radius: 10px;
+  }
+  .info .col-8 h3, .info .col-8 ul{
+    width: 90vw;
+
+  
+  }
+
+.footer p{
+  width: 100vw;
+  padding: 0;
+  margin: auto;
+}
+
+}
